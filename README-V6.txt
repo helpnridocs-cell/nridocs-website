@@ -1,48 +1,40 @@
-NRIDOCS WEBSITE — V6
-=====================
+# NRIDocs V6 — Static Website Package
 
-This is a complete static HTML/CSS/JS website package designed for GitHub Pages.
+This is a self-contained, mobile-first NRIDocs website package designed for GitHub Pages.
 
-V6 upgrades
------------
-• Premium responsive visual system using NRIDocs navy + orange branding
-• Mobile-first navigation and floating Call / WhatsApp actions
-• Stronger hero section with trust metrics
-• 12 service pages
-• Services search/filter
-• 4-step process section
-• Trust / confidentiality / remote-assistance positioning
-• Country coverage page
-• About, Contact and FAQ pages
-• WhatsApp enquiry form
-• SEO title + description on each page
-• sitemap.xml + robots.txt
-• No external framework required
+## Included
+- Premium responsive homepage
+- About, Services, Countries, Contact and Privacy pages
+- Dedicated service pages:
+  - Birth Certificate & NABC
+  - Apostille
+  - MEA Attestation
+  - Embassy Attestation
+  - PCC
+  - OCI
+  - FRRO Registration
+  - Exit Permit
+  - Single Status Certificate
+  - Degree Certificate
+  - Legal Heir Certificate
+- Mobile sticky Call + WhatsApp bar
+- Service search/filter
+- WhatsApp enquiry form
+- SEO-friendly titles/descriptions
+- No external frameworks required
 
-Important
----------
-1. The WhatsApp number is currently set to +91 77094 22922 in the HTML/JS.
-2. Replace this number everywhere if needed.
-3. Replace https://www.nridocs.com/ in sitemap.xml with the final domain if different.
-4. The contact form is front-end only and opens WhatsApp. For CRM/email automation, connect it later to your preferred backend/CRM.
-5. The logo.svg is a clean vector recreation for the website package. Replace it with the official NRIDocs logo asset if you have the final source file.
+## GitHub Pages deployment
+1. Extract this ZIP.
+2. Upload all files/folders into the repository root.
+3. Keep `index.html` in the root.
+4. GitHub → Settings → Pages → Deploy from branch → `main` → `/ (root)`.
+5. Save and wait for deployment.
 
-GitHub Pages deployment from iPhone
------------------------------------
-1. Open your repository on GitHub.
-2. Upload all files from this ZIP to the repository root.
-3. Go to Settings → Pages.
-4. Source: Deploy from a branch.
-5. Branch: main
-6. Folder: / (root)
-7. Save.
-8. Wait for GitHub Pages to deploy.
-9. Open the generated Pages URL.
+## Important
+The contact details currently use:
+Phone/WhatsApp: +91 77094 22922
+Email: help@nridocs.com
 
-Recommended next V6.1 work
---------------------------
-• Connect enquiry form to Zoho Bigin / CRM.
-• Add a proper secure client upload portal instead of collecting documents through public forms.
-• Add Google Analytics / Search Console.
-• Add real reviews only after verified consent.
-• Add service-specific pricing/turnaround after confirming actual operational rates.
+Update these if required before publishing.
+
+The visual direction is original and designed around a premium documentation-services experience, taking general inspiration from modern competitors without copying their text, branding or layouts.

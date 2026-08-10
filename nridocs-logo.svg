@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 92">
+<rect width="390" height="92" fill="white"/>
+<path fill="#203A72" d="M6 10h22l30 30-30 30H6V10zm0 0 28 28L6 66V10z"/>
+<path fill="#203A72" d="M43 10h16l30 30-30 30H43l29-30L43 10z"/>
+<text x="92" y="49" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" fill="#203A72">NRI</text>
+<text x="177" y="49" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" fill="#D95A24">DOCS</text>
+<text x="93" y="72" font-family="Arial,Helvetica,sans-serif" font-size="15" font-style="italic" font-weight="600" fill="#203A72">Empowering NRIs Globally</text>
+</svg>
