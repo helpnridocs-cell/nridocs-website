@@ -158,3 +158,96 @@ textarea{min-height:130px;resize:vertical}
   header .brand { min-width:0; }
   header .brand-logo { max-height:52px; }
 }
+
+/* NRIDocs V7 — enhanced conversion experience */
+.topbar-inner{display:flex;justify-content:space-between;gap:20px;padding:8px 0}
+.hero-enhanced{padding-top:72px}
+.hero-card-premium{padding:26px}
+.hero-card-top,.country-panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.mini-label{font-size:11px;letter-spacing:1.2px;font-weight:900;color:var(--orange)}
+.live-dot{font-size:11px;font-weight:800;color:var(--green)}
+.hero-card-copy{color:var(--muted);font-size:14px;margin-top:-7px}
+.hero-service-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0}
+.hero-service-grid a{display:flex;align-items:center;gap:9px;padding:12px;border:1px solid var(--line);border-radius:14px;font-weight:800;color:var(--navy);font-size:13px;background:#fff}
+.hero-service-grid a:hover{border-color:#cdd7ea;transform:translateY(-1px)}
+.hero-service-grid span{font-size:17px}
+.full-link{display:block;text-align:center;padding-top:12px;border-top:1px solid var(--line);color:var(--orange);font-weight:900;font-size:13px}
+.trust-strip{display:flex;flex-wrap:wrap;gap:8px;margin-top:25px}
+.trust-strip span{padding:8px 11px;background:#fff;border:1px solid var(--line);border-radius:999px;font-size:12px;color:#58657c;font-weight:700}
+.trust-strip strong{color:var(--navy)}
+.finder-preview{padding-top:34px;padding-bottom:34px}
+.finder-box{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:30px 34px;border:1px solid #dfe5ef;border-radius:24px;background:#fff;box-shadow:0 10px 35px rgba(23,47,103,.06)}
+.finder-box h2{font-size:32px;margin:5px 0}
+.finder-box p{margin:0;color:var(--muted);max-width:680px}
+.centered{text-align:center;margin-left:auto;margin-right:auto}
+.cards-4{grid-template-columns:repeat(4,1fr)}
+.service-grid-8{grid-template-columns:repeat(4,1fr)}
+.service-card-link{transition:.2s}
+.service-card-link:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:#d5ddeb}
+.center-action{text-align:center;margin-top:28px}
+.process-enhanced{grid-template-columns:repeat(5,1fr)}
+.country-panel{background:#fff;border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:var(--shadow)}
+.country-panel h3{color:var(--navy);font-size:28px;margin:14px 0 18px}
+.country-pills{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.country-pills a{padding:13px 14px;border:1px solid var(--line);border-radius:13px;font-weight:800;color:var(--navy);background:#fff}
+.country-pills a:hover{border-color:#ccd6e8;color:var(--orange)}
+.article-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.article-card{border:1px solid var(--line);border-radius:20px;padding:24px;background:#fff}
+.article-tag{font-size:11px;font-weight:900;letter-spacing:1px;color:var(--orange)}
+.article-card h3{font-size:21px;line-height:1.25;color:var(--navy);margin:12px 0 8px}
+.article-card p{color:var(--muted);margin:0}
+.article-card a{display:inline-block;margin-top:18px;color:var(--orange);font-weight:900}
+.cta-enhanced{padding:40px 44px}
+.kicker.light{color:#ffb28f}
+.cta-actions{display:flex;gap:10px;flex-wrap:wrap}
+.btn-light{background:#fff;color:var(--navy)}
+.finder-layout{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+.finder-form-card,.finder-result-card,.track-card,.status-explainer{border:1px solid var(--line);border-radius:24px;background:#fff;padding:28px;box-shadow:var(--shadow)}
+.finder-step{display:grid;grid-template-columns:46px 1fr;gap:14px;padding:17px 0;border-bottom:1px solid var(--line)}
+.finder-step>span{width:40px;height:40px;border-radius:12px;background:#fff0e9;color:var(--orange);display:grid;place-items:center;font-weight:900}
+.finder-step label{display:block}
+.finder-button,.track-button{width:100%;margin-top:20px}
+.finder-result-card{min-height:360px;display:flex;align-items:center;justify-content:center}
+.result-placeholder{text-align:center;max-width:360px}
+.result-icon{width:60px;height:60px;border-radius:18px;background:#edf2fb;color:var(--navy);display:grid;place-items:center;font-size:28px;font-weight:900;margin:0 auto 15px}
+.result-placeholder h2{font-size:28px}
+.result-placeholder p{color:var(--muted)}
+.result-live{text-align:left;width:100%}
+.result-live .recommend-badge{display:inline-block;background:#e9f8f1;color:#16724a;border-radius:999px;padding:6px 10px;font-size:11px;font-weight:900}
+.result-live h2{font-size:30px;margin:12px 0 8px}
+.result-live p{color:var(--muted)}
+.result-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.track-layout{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+.track-card h2{margin-bottom:5px}
+.muted{color:var(--muted)}
+.track-message{margin-top:15px;font-size:14px;color:var(--navy);font-weight:700}
+.status-explainer{display:grid;gap:0}
+.status-row{display:flex;gap:14px;align-items:flex-start;padding:17px 0;border-bottom:1px solid var(--line)}
+.status-row:last-child{border-bottom:0}
+.status-circle{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:#f1f4f9;color:#7a869c;font-weight:900;flex:0 0 auto}
+.status-circle.done{background:#e9f8f1;color:var(--green)}
+.status-circle.active{background:#fff0e9;color:var(--orange)}
+.status-row b{display:block;color:var(--navy)}
+.status-row small{display:block;color:var(--muted);margin-top:2px}
+@media(max-width:1050px){
+  .cards-4{grid-template-columns:1fr 1fr}
+  .service-grid-8{grid-template-columns:1fr 1fr}
+  .process-enhanced{grid-template-columns:1fr 1fr}
+}
+@media(max-width:900px){
+  .topbar-inner{display:none}
+  .finder-box{display:block}
+  .finder-box .btn{margin-top:18px}
+  .finder-layout,.track-layout{grid-template-columns:1fr}
+  .article-grid{grid-template-columns:1fr}
+}
+@media(max-width:620px){
+  .hero-enhanced{padding-top:42px}
+  .hero-service-grid{grid-template-columns:1fr}
+  .trust-strip{display:grid;grid-template-columns:1fr 1fr}
+  .finder-box{padding:24px}
+  .finder-box h2{font-size:28px}
+  .cards-4,.service-grid-8,.process-enhanced{grid-template-columns:1fr}
+  .country-pills{grid-template-columns:1fr 1fr}
+  .cta-enhanced{padding:28px}
+}
